@@ -1,0 +1,23 @@
+{
+  "name": "ts-boilerplate",
+  "description": "",
+  "version": "0.1.0",
+  "author": "takaion",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takaion/ts-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takaion/ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/takaion/ts-boilerplate#readme",
+  "devDependencies": {
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
