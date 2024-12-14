@@ -4,4 +4,6 @@ module.exports = {
   transform: {
     "^.+.tsx?$": ["ts-jest",{}],
   },
+  roots: ["<rootDir>/src"],
+  resolver: "ts-jest-resolver",
 };
