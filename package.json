@@ -5,6 +5,9 @@
   "author": "takaion",
   "license": "Apache-2.0",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "exports": {
     ".": {
       "import": {
