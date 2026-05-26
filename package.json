@@ -6,8 +6,9 @@
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=26"
   },
+  "packageManager": "pnpm@11.3.0",
   "exports": {
     ".": {
       "import": {
