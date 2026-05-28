@@ -1,10 +1,11 @@
-/.github
-/.vscode
+/.*
 /src
 /tsconfig.json
 /*.tgz
-jest.config.js
+*.config.js
+*.config.ts
 *test.*
+*pnpm*
 
 *secret.*
 secret*
