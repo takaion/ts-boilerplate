@@ -1,8 +1,28 @@
 {
-	"name": "Node.js & TypeScript",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:4-24-trixie",
+	"name": "TypeScript",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"updateRemoteUserUID": true,
 	"features": {
-		"ghcr.io/devcontainers-extra/features/pnpm:2": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "node",
+			"upgradePackages": "true"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest",
+			"ppa": "false"
+		},
 		"ghcr.io/helpers4/devcontainer/pnpm-store:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vitest.explorer",
+				"EditorConfig.EditorConfig"
+			]
+		}
 	}
 }

@@ -1,0 +1,27 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "version": "2.7.1",
+      "resolved": "ghcr.io/devcontainers/features/common-utils@sha256:e76a6a8a35d1ad824daad1540725e0ec9f8ed2dc00d2850e990a9830013c7d08",
+      "integrity": "sha256:e76a6a8a35d1ad824daad1540725e0ec9f8ed2dc00d2850e990a9830013c7d08"
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "1.3.8",
+      "resolved": "ghcr.io/devcontainers/features/git@sha256:fd75977de13a9979000e0e78baf949adb0ca71d2398995fa22e0a36d7e7e7fe2",
+      "integrity": "sha256:fd75977de13a9979000e0e78baf949adb0ca71d2398995fa22e0a36d7e7e7fe2"
+    },
+    "ghcr.io/helpers4/devcontainer/helpers4-common:1": {
+      "version": "1.2.3",
+      "resolved": "ghcr.io/helpers4/devcontainer/helpers4-common@sha256:c7a3699fd60b5da8702d7d74ce48c58a84dfea4ee1f0f5370e8ce901b875aa8c",
+      "integrity": "sha256:c7a3699fd60b5da8702d7d74ce48c58a84dfea4ee1f0f5370e8ce901b875aa8c"
+    },
+    "ghcr.io/helpers4/devcontainer/pnpm-store:1": {
+      "version": "1.3.1",
+      "resolved": "ghcr.io/helpers4/devcontainer/pnpm-store@sha256:73c89408a1e66521c0f25c2b8ecbbff683e9706b3d4499a268747beaab2c2a19",
+      "integrity": "sha256:73c89408a1e66521c0f25c2b8ecbbff683e9706b3d4499a268747beaab2c2a19",
+      "dependsOn": [
+        "ghcr.io/helpers4/devcontainer/helpers4-common:1"
+      ]
+    }
+  }
+}
